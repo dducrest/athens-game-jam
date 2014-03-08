@@ -1,4 +1,11 @@
 AgjBallot::Application.routes.draw do
+  resources :participants
+
+  resources :teams
+
+  get "teams/new"
+  get "teams/update"
+  get "teams/destory"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

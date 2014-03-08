@@ -2,6 +2,8 @@
 
 one:
   game_name: MyString
+  team_name: MyString
 
 two:
   game_name: MyString
+  team_name: MyString
